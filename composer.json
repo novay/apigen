@@ -1,0 +1,20 @@
+{
+    "name": "novay/apigen",
+    "description": "Generate API using existing DB.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Novay\\Apigen\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Novay\\Apigen\\ApigenServiceProvider"
+        ]
+      }
+    },
+    "require": {}
+  }
+  
